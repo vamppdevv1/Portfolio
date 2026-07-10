@@ -9,22 +9,24 @@ export const Header = () => {
           <TextType text={["Hello There!"]} typingSpeed={60} loop={false} />
         </div>
         {/* brief about */}
-        <div>
-          <h1 className="text-2xl mb-5 font-heading  text-amber-50">
+        <div className="mb-8">
+          <h1 className="text-2xl mb-5 font-heading text-[#E0B0FF]">
             Im Mohammed Amine!
           </h1>
           <p className="leading-10 font-body">
-            I am a Full Stack MERN Developer focused on building modern,
-            responsive, and user-friendly web applications. I work with React,
-            Node.js, Express, and MongoDB to create complete solutions from
-            frontend interfaces to backend systems. I enjoy writing clean,
-            maintainable code and continuously improving my skills through
-            real-world projects.
+            a Full Stack MERN Developer focused on building modern, responsive,
+            and user-friendly web applications. I work with React, Node.js,
+            Express, and MongoDB to create complete solutions from frontend
+            interfaces to backend systems. I enjoy writing clean, maintainable
+            code and continuously improving my skills through real-world
+            projects.
           </p>
         </div>
         {/* stack used */}
-        <h2 className="text-2xl mt-8  text-amber-50">Tech used:</h2>
-        <TechStack />
+        <div className="mb-6">
+          <h2 className="text-2xl mb-5  text-[#E0B0FF]">Tech used:</h2>
+          <TechStack />
+        </div>
       </div>
     </header>
   );
