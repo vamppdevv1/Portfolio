@@ -1,20 +1,18 @@
 import { BrowserRouter, Routes, Route } from "react-router";
-import { About } from "./pages/about/About";
 import { Home } from "./pages/home/Home";
-import { Projects } from "./pages/projects/Projects";
- import {Footer} from "./components/footer/Footer"
-
+import { Layout } from "./pages/Layout/Layout";
+import { NotFound } from "./pages/notFound/NotFound";
 export const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+        </Route>
+        <Route path="*" element={<NotFound />} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
-}
+};
 
-export default App
+export default App;

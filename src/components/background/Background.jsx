@@ -245,7 +245,7 @@ const Background = ({
  return (
    <div
      ref={containerRef}
-     className={`absolute inset-0 -z-10 overflow-hidden ${className ?? ""}`}
+     className={`fixed inset-0 -z-10 overflow-hidden ${className ?? ""}`}
    />
  );
 };

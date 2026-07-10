@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap');
 @import "tailwindcss";
 @theme {
-  --font-body: "Inter", sans-serif;
-  --font-heading: "Space Grotesk", sans-serif;
+  --font-secondary: "Space Grotesk", sans-serif;
+  --font-primary : "Geist Pixel", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
 }
 body{
     background-color: #120F17;
