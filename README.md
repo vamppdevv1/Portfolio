@@ -1,16 +1,115 @@
-# React + Vite
+# Mohamed's Portfolio 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio website built with React, Tailwind CSS, and React Bits.
 
-Currently, two official plugins are available:
+This portfolio showcases my projects, technical skills, and development work through a clean and interactive user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Responsive Design** — Fully optimized across desktop, tablet, and mobile devices
+- **Modern UI** — Clean layouts with a focus on usability and visual presentation
+- **Project Showcase** — Dedicated sections to display featured projects and technologies
+- **Interactive Components** — Enhanced UI elements using reusable React components
+- **Animated Elements** — Interactive visuals powered by React Bits components
+- **Tech Stack Display** — Showcases technologies and tools used throughout my projects
+- **Reusable Architecture** — Organized component-based structure for maintainability
+- **Responsive Navigation** — Mobile-friendly navigation and layout system
+- **Custom Background Elements** — Visual components to improve the overall experience
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+### Frontend
+
+- React
+- JavaScript
+- Tailwind CSS
+- HTML5
+- CSS3
+- Vite
+
+### UI & Components
+
+- React Bits
+- Reusable React Components
+
+---
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── background/
+│   ├── carousel/
+│   ├── featuredProjects/
+│   ├── footer/
+│   ├── header/
+│   ├── navbar/
+│   ├── techStack/
+│   └── textType/
+│
+├── pages/
+│   ├── Layout/
+│   ├── home/
+│   └── notFound/
+│
+├── data/
+│
+└── main.jsx
+```
+
+---
+
+## Sections
+
+### Home
+
+The main landing page containing:
+
+- Introduction
+- Featured projects
+- Technology showcase
+- Interactive UI sections
+
+### Featured Projects
+
+A section displaying selected projects with:
+
+- Project descriptions
+- Technologies used
+- Links
+
+### Tech Stack
+
+A visual overview of the technologies and tools used in my development work.
+
+---
+
+## Design Focus
+
+This portfolio focuses on:
+
+- Clean and modern interfaces
+- Responsive layouts
+- Component reusability
+- Smooth user experience
+- Accessible and organized UI
+
+---
+
+## Future Improvements
+
+- Add more project case studies
+- Improve animations and interactions
+- Add additional accessibility improvements
+- Continue expanding showcased projects
+
+---
+
+## License
+
+This project is for personal portfolio and showcase purposes.
